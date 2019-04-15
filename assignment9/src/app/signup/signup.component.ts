@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
 import {UserService} from '../service/user.service';
+import { User } from '../model/user.model';
 
 @Component({
   selector: 'app-signup',
@@ -9,14 +10,14 @@ import {UserService} from '../service/user.service';
 })
 export class SignupComponent implements OnInit {
 
-  model: any;
+  user: User;
   constructor(private userService: UserService, private router: Router) { }
 
   ngOnInit() {
   }
 
   creteUser() {
-    this.userService.create(this.model)
+    this.userService.create(this.user)
       .subscribe(data => this.router.navigate(['/'])
       );
   }

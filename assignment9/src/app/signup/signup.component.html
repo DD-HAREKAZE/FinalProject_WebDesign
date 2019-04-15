@@ -4,37 +4,36 @@
 <form (ngSubmit)="creteUser()" class = "signupForm">
   <div class="form-group">
     <label for="firstName">First Name</label>
-    <input class="form-control" type="text" name="firstName" id="firstName" [(ngModel)]="model.firstName"/>
+    <input class="form-control" type="text" name="firstName" id="firstName" [(ngModel)]=" firstName"/>
   </div>
 
   <div class="form-group">
     <label for="lastName">Last Name</label>
-    <input class="form-control" class="form-control" type="text" name="lastName" id="lastName" [(ngModel)]="model.lastName"/>
+    <input class="form-control" class="form-control" type="text" name="lastName" id="lastName" [(ngModel)]="lastName"/>
   </div>
 
   <div class="form-group">
-    <label for="userName">Email</label>
-    <input class="form-control" type="text" name="userName" id="userName" [(ngModel)]="model.userName"/>
+    <label for="userName">Email address</label>
+    <input class="form-control" type="text" name="userName" id="userName" [(ngModel)]="userName"/>
   </div>
 
   <div class="form-group">
     <label for="password">Password</label>
-    <input class="form-control" type="password" name="password" id="password" [(ngModel)]="model.password"/>
+    <input class="form-control" type="password" name="password" id="password" [(ngModel)]="password"/>
   </div>
 
   <div class="form-group">
     <label for="city">City</label>
-    <input class="form-control" type="city" name="zipcode" id="city" [(ngModel)]="model.city"/>
+    <input class="form-control" type="city" name="city" id="city" [(ngModel)]="city"/>
   </div>
 
   <div class="form-group">
-    <label for="zipcode">Zipcode</label>
-    <input class="form-control" type="zipcode" name="zipcode" id="zipcode" [(ngModel)]="model.zipcode"/>
+    <label for="zip">Zipcode</label>
+    <input class="form-control" type="zip" name="zip" id="zip" [(ngModel)]="zip"/>
   </div>
 
 
   <div>
-    <button class="btn btn-primary">Sign Up</button>
-    <a [routerLink]="['/login']" class="btn btn-link">Login</a>
+    <button class="btn btn-info">Sign Up</button>
   </div>
 </form>

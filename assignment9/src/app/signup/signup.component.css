@@ -3,5 +3,13 @@
 }
 
 .form-group{
-  color:hotpink;
+  color:palevioletred;
+  width:70%;
+  margin-left: 15%;
+}
+
+.btn{
+  margin-left: 15%;
+  background-color: #c13181;
+  color: white;
 }

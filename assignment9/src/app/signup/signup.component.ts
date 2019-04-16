@@ -14,7 +14,8 @@ import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, NgForm, FormCo
 export class SignupComponent implements OnInit {
   user: User;
   registerForm: FormGroup; /*sign up debug */
-  loading: false;
+  loading = false;
+  submitted = false;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -26,22 +27,34 @@ export class SignupComponent implements OnInit {
     this.registerForm = this.formBuilder.group({
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
-      userName: ['', Validators.required],
-      password: ['', Validators.minLength(6)],
+      userName: ['', [Validators.required, Validators.email]],
+      password: ['', [Validators.required, Validators.pattern(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/)]],
       city: ['', Validators.required],
-      zip: ['', Validators.required]
+      zip: ['', [Validators.required, Validators.pattern(/(^\d{5}$)|(^\d{5}-\d{4}$)/)]]
       });
   }
 
   get f() {return this.registerForm.controls; }
 
   creteUser() {
+
+    this.submitted = true;
+
+    // Stop here if from is invalid
+    if (this.registerForm.invalid) {
+      return;
+    }
+
     console.log(this.registerForm.value);
+    this.loading = true;
     this.userService.create(this.registerForm.value)
       .subscribe(data => {
           console.log('user register', data)
           this.router.navigate(['/profile']);
-      });
+      },
+        error => {
+        this.loading = false;
+        });
   }
 
 }

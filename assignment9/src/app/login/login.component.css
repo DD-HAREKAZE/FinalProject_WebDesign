@@ -1,3 +1,9 @@
+.signin-heading{
+  color:palevioletred;
+  font-size: 20px;
+  text-align: center;
+}
+
 .loginForm{
   margin-top: 10%;
 }
@@ -13,3 +19,4 @@
   background-color: #c13181;
   color: white;
 }
+

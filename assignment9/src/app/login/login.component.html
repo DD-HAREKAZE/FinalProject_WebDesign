@@ -1,20 +1,30 @@
 <app-header></app-header>
 
-<form (ngSubmit)="creteUser()" class = "loginForm">
+<form [formGroup]="loginForm" (ngSubmit)="submitLogin()" class = "loginForm">
 
   <br>
 
+  <h4 class = "signin-heading">Please enter your email and password</h4>
 
   <div class="form-group">
     <label for="userName">Email address</label>
-    <input class="form-control" type="text" name="userName" id="userName" [(ngModel)]="userName"/>
+    <input formControlName="userName" class="form-control" type="text" name="userName" id="userName"
+           placeholder="Email Address"
+           [(ngModel)]="userName"/>
   </div>
 
   <div class="form-group">
     <label for="password">Password</label>
-    <input class="form-control" type="password" name="password" id="password" [(ngModel)]="password"/>
+    <input formControlName="password" class="form-control" type="password" name="password" id="password"
+           placeholder="Password"
+           [(ngModel)]="password"/>
   </div>
 
+  <!--
+  <div class = "form-group">
+    <label><input type = "checkbox" value = "remember-me"> Remember me</label>
+  </div>
+  -->
 
   <div>
     <button class="btn btn-info">Log In</button>

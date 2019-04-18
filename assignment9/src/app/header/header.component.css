@@ -17,7 +17,8 @@ nav{
 ul{
   list-style-type: none;
   overflow:hidden;
-  background-color: darkgray;
+  background-color: cornflowerblue;
+  opacity: 0.7;
   text-align: -webkit-center;
 }
 
@@ -31,7 +32,7 @@ nav li {
 nav li a{
   display:inline-block;
   padding: 10px; /* distance between words in navigation*/
-  color:black;
+  color:white;
   text-decoration: none;
   font-weight:bolder;
 }
@@ -42,12 +43,12 @@ nav ul li:hover{
 }
 
 nav ul li a:hover{
-  color: #fff5ee;	;
+  color: #2bdab5;	;
 }
 
 nav li:hover ul{
   display:inline-block;
-  background-color: #FFF5EE;
+  background-color: pink;
   opacity: 0.7;
   width:10%;
 }

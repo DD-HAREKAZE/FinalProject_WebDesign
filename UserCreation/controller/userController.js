@@ -1,46 +1,60 @@
 const User = require('../model/user');
 const _ = require('lodash');
 
+
 //user
 exports.create = (req,res) => {
-    console.log("backend",req.body.userName);
-    const user = new User({
-        userName : req.body.userName,
-        password : req.body.password,
-        firstName : req.body.firstName,
-        lastName : req.body.lastName,
-        city: req.body.city,
-        zip: req.body.zip
-    });
 
-    user.save().
-    then(() => {
-        res.send({'message':'User created successfully'});
+    console.log("backend", req.body.userName);
+
+    var userName = req.body.userName;
+    var password = req.body.password;
+    var firstName = req.body.userName;
+    var lastName = req.body.lastName;
+    var city = req.body.city;
+    var zip = req.body.zip;
+
+    var newuser = new User();
+    newuser.userName = userName;
+    newuser.password = password;
+    newuser.firstName = firstName;
+    newuser.lastName = lastName;
+    newuser.city = city;
+    newuser.zip = zip;
+
+    newuser.save(function (err, savedUser) {
+        if (err) {
+            console.log(err);
+            return res.status(500).send();
+        }
+        return res.status(200).send();
+
     });
 };
 
-//authenticate
 
 //authenticate
 exports.auth = (req,res) => {
-    const data = {
-        userName: req.body.userName,
-        password: req.body.password
-    };
-    console.log(data);
-    User.find({userName:data.userName, password:data.password},(error,user) => {
+
+       var userName = req.body.userName;
+       var password = req.body.password;
+
+    User.findOne({userName: userName, password: password},(error,user) => {
+
         console.log("user backend: "+ user);
-        console.log(error);
+
         if(error){
-            res.status(401).send({'message':'Invalid Username/Password'});
-        }else if(user){
-            console.log("user backend2 : "+ user);
-            res.status(200).json({status:true, user: user});
+            console.log(error);
+            res.status(401).send();
+        }
+        if(!user){
+            res.status(404).send();
         }else{
-            return res.status(400).json("user not found");
+            return res.status(200).send();
         }
     });
 };
+
 /*
 exports.auth = (req,res) => {
     const data = {

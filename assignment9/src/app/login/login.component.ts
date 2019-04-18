@@ -51,12 +51,11 @@ export class LoginComponent implements OnInit {
       .pipe(first())
       .subscribe(
         data => {
-          this.router.navigate(['/profile']);
+            this.router.navigate(['/profile']);
         },
         error => {
-       //   this.alertService.error(error);
           this.loading = false;
-        });
+    });
   }
 
 }

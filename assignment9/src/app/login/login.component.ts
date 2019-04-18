@@ -4,6 +4,7 @@ import { FormBuilder, FormGroup, Validators} from '@angular/forms';
 import { LoginService} from '../service/login.service';
 import { first } from 'rxjs/operators';
 import { User} from '../model/user.model';
+import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 
 @Component({
   selector: 'app-login',
@@ -23,7 +24,8 @@ export class LoginComponent implements OnInit {
     private formBuilder: FormBuilder,
     private route: ActivatedRoute,
     private router: Router,
-    private loginService: LoginService
+    private loginService: LoginService,
+    public modalService: NgbModal
   ) {}
 
   ngOnInit() {
@@ -51,7 +53,8 @@ export class LoginComponent implements OnInit {
       .pipe(first())
       .subscribe(
         data => {
-            this.router.navigate(['/profile']);
+          localStorage.setItem('user', JSON.stringify(data['user']));
+          this.router.navigate(['/home']);
         },
         error => {
           this.loading = false;

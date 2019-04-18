@@ -2,13 +2,33 @@
   <ul>
     <li ><a href="#home">Home</a></li>
     <li><a href="#gallery">Destination</a></li>
-    <li><a href="#blog">Blogs</a></li>
 
+    <div *ngIf="this.userObject; else login" id = "helloName">
+      Welcome,  {{this.currentUser}}
+      <a (click)="viewMyProfile()"><button class = "logOut"> My Profile</button></a>
+      <a (click)="logout(wanttologout)"><button class = "logOut">Log Out</button></a>
+    </div>
+
+    <ng-template #login>
     <li><a href="#" [routerLink]= "['/login']">Log in</a></li>
     <li><a href="#" [routerLink]= "['/signup']">Sign up</a></li>
     <hr><hr>
+    </ng-template>
   </ul>
 </nav>
 
+
+
+<ng-template #wanttologout let-c="close" let-d="dismiss">
+  <div class = "modal-content">
+    <div class="modal-body">
+      Do you want to logout?
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark btn-info" (click)="c('yes')">Yes</button>
+      <button type="button" class="btn btn-outline-dark btn-info" (click)="c('no')">No</button>
+    </div>
+  </div>
+</ng-template>
 
 <router-outlet></router-outlet>

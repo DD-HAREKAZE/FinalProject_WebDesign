@@ -11,7 +11,6 @@ nav{
   z-index: 1;
   top:0;
   margin-bottom: 100px;
-
 }
 
 ul{
@@ -19,7 +18,7 @@ ul{
   overflow:hidden;
   background-color: cornflowerblue;
   opacity: 0.7;
-  text-align: -webkit-center;
+  text-align: left;
 }
 
 nav li {
@@ -35,6 +34,7 @@ nav li a{
   color:white;
   text-decoration: none;
   font-weight:bolder;
+  margin-left: 60px;
 }
 
 
@@ -53,3 +53,17 @@ nav li:hover ul{
   width:10%;
 }
 
+#helloName{
+  font-family:'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+  font-size:15px;
+  float: right;
+  color: white;
+  padding-top: 40px;
+}
+
+.logOut{
+  display:inline-block;
+  color: purple;
+  margin-right: 10px;
+  font-size: 15px;
+}

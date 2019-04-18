@@ -12,7 +12,6 @@ import { SignupComponent } from './signup/signup.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
-import { Header2Component } from './header2/header2.component';
 
 
 @NgModule({
@@ -23,8 +22,7 @@ import { Header2Component } from './header2/header2.component';
     SignupComponent,
     HeaderComponent,
     LoginComponent,
-    ProfileComponent,
-    Header2Component
+    ProfileComponent
   ],
   imports: [
     BrowserModule,

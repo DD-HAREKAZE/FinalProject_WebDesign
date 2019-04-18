@@ -58,9 +58,9 @@ exports.auth = (req,res) => {
             res.status(401).send();
         }
         if(!user){
-            res.status(404).send();
+            res.status(404).send({'message':'invalid user'});
         }else{
-            return res.status(200).send();
+            return res.status(200).send({'user':user});
         }
     });
 };

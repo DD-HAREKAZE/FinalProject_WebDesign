@@ -78,9 +78,6 @@ exports.auth = (req,res) => {
 };
 */
 
-
-
-
 exports.getUser = (req,res) => {
     const data = {
         userName: req.params.userName,
@@ -101,3 +98,4 @@ exports.delete = (req,res) => {
         res.send({'message':'user deleted successfully'});
     }); 
 };
+

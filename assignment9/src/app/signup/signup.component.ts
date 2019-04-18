@@ -27,7 +27,7 @@ export class SignupComponent implements OnInit {
     this.registerForm = this.formBuilder.group({
       firstName: ['', Validators.required],
       lastName: ['', Validators.required],
-      userName: ['', [Validators.required, Validators.email]],
+      userName: ['', [Validators.required, Validators.pattern(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/)]],
       password: ['', [Validators.required, Validators.pattern(/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})/)]],
       city: ['', Validators.required],
       zip: ['', [Validators.required, Validators.pattern(/(^\d{5}$)|(^\d{5}-\d{4}$)/)]]
@@ -46,6 +46,7 @@ export class SignupComponent implements OnInit {
     }
 
     console.log(this.registerForm.value);
+
     this.loading = true;
     this.userService.create(this.registerForm.value)
       .subscribe(data => {

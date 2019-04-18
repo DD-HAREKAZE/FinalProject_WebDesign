@@ -5,31 +5,40 @@ const _ = require('lodash');
 //user Sign up
 exports.create = (req,res) => {
 
-    console.log("backend", req.body.userName);
-
     var userName = req.body.userName;
     var password = req.body.password;
-    var firstName = req.body.userName;
+    var firstName = req.body.firstName;
     var lastName = req.body.lastName;
     var city = req.body.city;
     var zip = req.body.zip;
 
-    var newuser = new User();
-    newuser.userName = userName;
-    newuser.password = password;
-    newuser.firstName = firstName;
-    newuser.lastName = lastName;
-    newuser.city = city;
-    newuser.zip = zip;
+    console.log("backend", userName);
 
-
-    newuser.save(function (err, savedUser) {
-        if (err) {
-            console.log(err);
-            return res.status(500).send();
+    User.findOne({userName: userName},(error,user) =>{
+        if(error){
+            res.status(501).send();
         }
-        return res.status(200).send();
+        if(user){
+            res.status(406).send();
+            console.log("user already exists")
+        }
+        else{
+            var newuser = new User();
+            newuser.userName = userName;
+            newuser.password = password;
+            newuser.firstName = firstName;
+            newuser.lastName = lastName;
+            newuser.city = city;
+            newuser.zip = zip;
 
+            newuser.save(function (err, savedUser) {
+                if (err) {
+                    console.log(err);
+                    return res.status(500).send();
+                }
+                return res.status(200).send();
+            });
+        }
     });
 };
 

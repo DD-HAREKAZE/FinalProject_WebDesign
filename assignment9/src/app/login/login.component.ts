@@ -55,7 +55,8 @@ export class LoginComponent implements OnInit {
         },
         error => {
           this.loading = false;
-    });
+          document.getElementById('invalidCredentials').style.display = 'inline';
+        });
   }
 
 }

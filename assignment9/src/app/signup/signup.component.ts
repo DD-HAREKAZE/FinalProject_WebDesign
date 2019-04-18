@@ -3,6 +3,7 @@ import { Router} from '@angular/router';
 import { UserService} from '../service/user.service';
 import { User } from '../model/user.model';
 import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, NgForm, FormControl, Validators, AbstractControl} from '@angular/forms';
+import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-signup',
@@ -20,7 +21,8 @@ export class SignupComponent implements OnInit {
   constructor(
     private formBuilder: FormBuilder,
     private userService: UserService,
-    private router: Router
+    private router: Router,
+    public modalService: NgbModal
   ) {}
 
   ngOnInit() {
@@ -50,12 +52,14 @@ export class SignupComponent implements OnInit {
     this.loading = true;
     this.userService.create(this.registerForm.value)
       .subscribe(data => {
-          console.log('user register', data)
+          console.log('user register', data);
+       //   alert('Successfully registered!')
           this.router.navigate(['/profile']);
       },
         error => {
         this.loading = false;
-        });
+        document.getElementById('accountExists').style.display = 'inline';
+      });
   }
 
 }

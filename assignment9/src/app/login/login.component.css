@@ -25,3 +25,9 @@
   font-size: 14px;
   color:darkred;
 }
+
+#invalidCredentials{
+  display: none;
+  font-size: 12px;
+  color:red;
+}

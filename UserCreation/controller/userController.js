@@ -2,7 +2,7 @@ const User = require('../model/user');
 const _ = require('lodash');
 
 
-//user
+//user Sign up
 exports.create = (req,res) => {
 
     console.log("backend", req.body.userName);
@@ -22,6 +22,7 @@ exports.create = (req,res) => {
     newuser.city = city;
     newuser.zip = zip;
 
+
     newuser.save(function (err, savedUser) {
         if (err) {
             console.log(err);
@@ -33,7 +34,7 @@ exports.create = (req,res) => {
 };
 
 
-//authenticate
+//authenticate / Log in
 exports.auth = (req,res) => {
 
        var userName = req.body.userName;
@@ -55,28 +56,6 @@ exports.auth = (req,res) => {
     });
 };
 
-/*
-exports.auth = (req,res) => {
-    const data = {
-        userName: req.params.userName,
-        password: req.params.password
-    };
-  //  User.findOne({userName:req.params.userName,password:req.params.password},(error,user) => {
-    User.findOne(req.params.userName,(error,user) => {
-        console.log("user backend: " + user);
-        if(!user || error){
-            res.status(401).send({'message':'User does not exist'});
-        }
-        if( user && (user.password === req.params.password)){
-            res.send({'user':user});
-        }
-        else{
-            console.log("user" + user);
-            res.status(403).send({'message':'Credentials wrong'});
-        }
-    })
-};
-*/
 
 exports.getUser = (req,res) => {
     const data = {

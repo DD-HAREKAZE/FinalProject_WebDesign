@@ -22,6 +22,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
     this.userObject = JSON.parse(localStorage.getItem('user'));
     if (this.userObject != null) {
+   //   const namekey = 'fn';
       this.currentUser = this.userObject['firstName'];
     }
   }

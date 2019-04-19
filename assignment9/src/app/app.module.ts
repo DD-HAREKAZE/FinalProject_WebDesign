@@ -12,6 +12,7 @@ import { SignupComponent } from './signup/signup.component';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
+import { GooglePlacesDirective } from './google-places.directive';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ProfileComponent } from './profile/profile.component';
     SignupComponent,
     HeaderComponent,
     LoginComponent,
-    ProfileComponent
+    ProfileComponent,
+    GooglePlacesDirective
   ],
   imports: [
     BrowserModule,

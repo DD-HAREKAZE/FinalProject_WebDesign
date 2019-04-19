@@ -4,7 +4,7 @@ import { FormBuilder, FormGroup, Validators} from '@angular/forms';
 import { LoginService} from '../service/login.service';
 import { first } from 'rxjs/operators';
 import { User} from '../model/user.model';
-import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
+import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-login',
@@ -47,13 +47,11 @@ export class LoginComponent implements OnInit {
     if (this.loginForm.invalid) {
       return;
     }
-
     this.loading = true;
     this.loginService.login(this.loginForm.value)
       .pipe(first())
       .subscribe(
         data => {
-          localStorage.setItem('user', JSON.stringify(data['user']));
           this.router.navigate(['/home']);
         },
         error => {

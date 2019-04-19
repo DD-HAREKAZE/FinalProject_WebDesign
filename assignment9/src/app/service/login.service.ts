@@ -15,6 +15,7 @@ export class LoginService {
     return this.http.post('http://localhost:3000' + '/auth', user);
   }
 
+
   /*
   login(username: string, password: string) {
       return this.http.post<any>(appConfig.apiUrl + '/users/authenticate',

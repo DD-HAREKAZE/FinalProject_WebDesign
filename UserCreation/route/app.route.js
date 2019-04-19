@@ -3,6 +3,8 @@ module.exports = (app) => {
 
     app.post('/user',user.create);
     app.get('/user/:userName/:password',user.getUser);
+    app.post('/email',user.email);
     app.delete('/user/:userName',user.delete);
     app.post('/auth',user.auth);
+
 }

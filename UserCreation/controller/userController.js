@@ -66,6 +66,54 @@ exports.auth = (req,res) => {
 };
 
 
+//email service
+exports.email=(req,res)=>{
+    // email send function--------------------------------------------------------------------------------
+    'use strict';
+
+    const nodemailer = require('nodemailer');
+    console.log(req.body.userName+"!");
+    let transporter = nodemailer.createTransport({
+        // host: 'smtp.ethereal.email',
+        service: req.body.userName, // support: https://nodemailer.com/smtp/well-known/
+        port: 465, // SMTP 端口
+        secureConnection: true, // 使用了 SSL
+        auth: {
+            user: 'a837986356@gmail.com',
+            // smtp auth ocde
+            pass: 'zygdpwgytwxmjvhb',
+        },
+        tls: {
+            rejectUnauthorized: false
+        }
+    });
+
+    let mailOptions = {
+        from: '"WayFarer" <a837986356@gmail.com>', // sender address
+        to: req.body.userName, // list of receivers
+        subject: 'Wayfarer Subscribe Confirm', // Subject line
+        // text or html
+        // text: 'Hello world?', // plain text body
+        html: '<b><p>Welcome to WayFarer!</p ><p>Thank you for subscribing our channel.' +
+            ' We will provide you the most popular travel sites and information, please substained!</p >' +
+            '<p>Thank you!</p ><p>WayFarer</p ></b>' // html body
+    };
+
+// send mail with defined transport object
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            return console.log(error);
+        }
+        console.log('Message sent: %s', info.messageId);
+        res.send({'message':'Email sent successfully'});
+        // Message sent
+    });
+}
+
+//------------------------------------------------------------------------------------------------------
+
+
+
 exports.getUser = (req,res) => {
     const data = {
         userName: req.params.userName,
@@ -86,4 +134,5 @@ exports.delete = (req,res) => {
         res.send({'message':'user deleted successfully'});
     }); 
 };
+
 

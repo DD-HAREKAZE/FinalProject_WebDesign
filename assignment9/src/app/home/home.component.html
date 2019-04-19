@@ -111,9 +111,11 @@
           </div><!--/.service-img-->
           <div class="service-content">
             <h2>
-              <a href="#">
-                Choose amazing tour packages
-              </a>
+              <li class="smooth-menu" style = "list-style: none">
+                <a (click)="goTo('pack')">
+                  Know More About Popular Destinations
+                </a >
+              </li>
             </h2>
             <p>Must use our tour Planner for breathtaking tour packages!</p>
           </div><!--/.service-content-->
@@ -553,16 +555,15 @@
         Join our list to receive updates, tips + tricks to keeping balance in your life, and to be the first to know of events and new Outposts.
       </p>
     </div>
-    <form>
+    <form [formGroup]= "emailForm"  class = "emailForm" (ngSubmit)="submitEmail()">
       <div class="row">
         <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
           <div class="custom-input-group">
-            <input type="email" class="form-control" placeholder="Enter your Email Here">
-            <button class="appsLand-btn subscribe-btn">Subscribe</button>
+            <input formControlName="userName" type="email" class="form-control" placeholder="Enter your Email Here" [(ngModel)]="inputEmail" >
+            <button class="appsLand-btn subscribe-btn" >Subscribe</button>
             <div class="clearfix"></div>
             <i class="fa fa-envelope"></i>
           </div>
-
         </div>
       </div>
     </form>

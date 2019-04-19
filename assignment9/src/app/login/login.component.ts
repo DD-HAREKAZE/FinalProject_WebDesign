@@ -52,7 +52,8 @@ export class LoginComponent implements OnInit {
       .pipe(first())
       .subscribe(
         data => {
-          this.router.navigate(['/home']);
+          localStorage.setItem('user', JSON.stringify(data['user']));
+          this.router.navigate(['/profile']);
         },
         error => {
           this.loading = false;

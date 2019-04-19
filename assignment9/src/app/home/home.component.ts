@@ -9,8 +9,8 @@ import {first} from 'rxjs/operators';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
-  providers: [ SendEmailService ]
+  styleUrls: ['./home.component.css']
+  //providers: [ SendEmailService ]
 })
 export class HomeComponent implements OnInit {
 
@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit {
     });
   }
 
-  get f() { return this.emailForm.controls; }
+ get f() { return this.emailForm.controls; }
 
   submitEmail() {
     this.submitted = true;
@@ -47,16 +47,11 @@ export class HomeComponent implements OnInit {
       .pipe(first())
       .subscribe(
         data => {
-          this.router.navigate(['/home']);
+          this.router.navigate(['/']);
         },
         error => {
           this.loading = false;
         });
-  }
-
-    goTo(location: string): void {
-    window.location.hash = '';
-    window.location.hash = location;
   }
 
 

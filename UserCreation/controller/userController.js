@@ -1,6 +1,6 @@
 const User = require('../model/user');
 const _ = require('lodash');
-
+const City = require('../model/city');
 
 //user Sign up
 exports.create = (req,res) => {
@@ -136,3 +136,17 @@ exports.delete = (req,res) => {
 };
 
 
+//-----------------------------------------------------------------------------------------------------
+//city in destination
+exports.list = (req,res) => {
+    City.find((err,doc) =>{
+
+        if(!err && doc){
+            console.log("successfully");
+            console.log(doc);
+            res.send({'city':doc});
+        }else{
+            res.status(401).send({'message':'Error something wrong!'})
+        }
+    });
+};

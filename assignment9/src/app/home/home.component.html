@@ -57,21 +57,22 @@
           <br />
           <!--serch input start-->
 
-          <form>
+
             <div class="row">
               <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div class="custom-input-group">
 
-              <input appGooglePlaces type="text" class="form-control" placeholder="Enter What You Want To Find Here">
+              <input appGooglePlaces type="text" class="form-control" placeholder="Enter What You Want To Find Here"
+                     [(ngModel)]="SearchItem"  required="required">
                <!--   <input appGooglePlaces class="form-control" type="text" class="google-place-input" placeholder="Enter What You Want To Find Here"> -->
-                  <button class="appsLand-btn subscribe-btn">Search</button>
+                  <button class="appsLand-btn subscribe-btn" (click)="onSubmit(SearchItem)">Search</button>
                   <div class="clearfix"></div>
                   <i class="fa fa-search"></i>
                 </div>
 
               </div>
             </div>
-          </form>
+
           <!--serch input end-->
 
         </div><!--/.col-->
@@ -462,7 +463,7 @@
 
           <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-              <h2>trending news <span>15 november 2017</span></h2>
+              <h2>trending news <span>19 April 2019</span></h2>
               <div class="thumbnail-img">
                 <img src="assets/images/blog/b1.jpg" alt="blog-img">
                 <div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
@@ -488,7 +489,7 @@
 
           <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-              <h2>trending news <span>15 november 2017</span></h2>
+              <h2>trending news <span>18 April 2019</span></h2>
               <div class="thumbnail-img">
                 <img src="assets/images/blog/b2.jpg" alt="blog-img">
                 <div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
@@ -513,7 +514,7 @@
 
           <div class="col-sm-4 col-md-4">
             <div class="thumbnail">
-              <h2>trending news <span>15 november 2017</span></h2>
+              <h2>trending news <span>15 March 2019</span></h2>
               <div class="thumbnail-img">
                 <img src="assets/images/blog/b3.jpg" alt="blog-img">
                 <div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->

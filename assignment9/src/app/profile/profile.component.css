@@ -2,9 +2,19 @@
   margin-top: 10%;
   text-align:center;
   color: palevioletred;
+  font-size:40px;
 }
 
-#firstname{
+#firstName,#lastName,#email,#city,#zipcode{
+  color:teal;
+  font-size: 25px;
+}
+
+#span_firstName,#span_lastName,#span_email,#span_city,#span_zipcode{
+  font-size:25px;
   color:cornflowerblue;
-  font-size: 20px;
+}
+
+.td{
+  text-align: left;
 }

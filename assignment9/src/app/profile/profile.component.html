@@ -1,13 +1,25 @@
-
 <app-header></app-header>
 
-<div class = "h1Words">
+<div class = "h1Words" >
 
-<h1>Hello, welcome to Wayfarer!</h1>
+  <h1>Hello, welcome to Wayfarer!</h1>
 
   <hr>
 
-  <label id = "firstname">First Name:    <br>   </label>
-  <input type ="text">
-<br><br>
+  <label id = "firstName">First Name: </label>
+  {{this.currentUserFirstName}}
+  <br>
+  <label id = "lastName">Last Name: </label>
+  {{this.currentUserLastName}}
+  <br>
+  <label id = "email">Email: </label>
+  {{this.currentUserEmail}}
+  <br>
+  <label id = "city">City: </label>
+  {{this.currentUserCity}}
+  <br>
+  <label id = "zipcode">Zipcode: </label>
+  {{this.currentUserZipcode}}
+  <br>
+  <br><br>
 </div>

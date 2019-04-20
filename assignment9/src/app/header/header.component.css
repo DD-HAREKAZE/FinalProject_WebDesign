@@ -76,6 +76,9 @@ nav li:hover ul{
 
 
 
+.modal-content{
+  z-index: 1;
+}
 
 
 

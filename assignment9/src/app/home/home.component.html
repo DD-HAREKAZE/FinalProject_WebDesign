@@ -13,8 +13,8 @@
 
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
-  <!-- TITLE OF SITE -->
   <title>Traveler</title>
+  <!-- TITLE OF SITE -->
 
   <!-- favicon img -->
   <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
@@ -22,12 +22,10 @@
   <!--font-awesome.min.css-->
   <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
 
+  <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
 
   <!-- range css-->
   <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/jquery-ui-1.11.0.css">
-
-  <!--bootstrap.min.css-->
-  <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
 
 
 </head>
@@ -111,13 +109,12 @@
           </div><!--/.service-img-->
           <div class="service-content">
             <h2>
-              <li class="smooth-menu" style = "list-style: none">
-                <a (click)="goTo('pack')">
-                  Know More About Popular Destinations
-                </a >
-              </li>
+              <!--              <a href=" ">-->
+              <a href="javascript:void(0)" onclick="document.getElementById('pack').scrollIntoView({behavior:'smooth'});">
+                Know More About Popular Destinations
+              </a >
             </h2>
-            <p>Must use our tour Planner for breathtaking tour packages!</p>
+            <p>From here you can get detailed information you want!</p >
           </div><!--/.service-content-->
         </div><!--/.single-service-box-->
       </div><!--/.col-->
@@ -129,11 +126,11 @@
           </div><!--/.service-img-->
           <div class="service-content">
             <h2>
-              <a href="#">
-                book top class hotel
-              </a>
+              <a href="javascript:void(0)" onclick="document.getElementById('blog').scrollIntoView({behavior:'smooth'});">
+                Browse Blogs From All Over The World
+              </a >
             </h2>
-            <p>This amazing site helps you book the best hotels all around the world!</p>
+            <p>This is the right place to get the comments all around the world!</p >
           </div><!--/.service-content-->
         </div><!--/.single-service-box-->
       </div><!--/.col-->
@@ -146,11 +143,11 @@
           <div class="service-content">
 
             <h2>
-              <a href="#">
-                online flight booking
-              </a>
+              <a href="javascript:void(0)" onclick="document.getElementById('subs').scrollIntoView({behavior:'smooth'});">
+                Subscribe The Latest News From Us
+              </a >
             </h2>
-            <p>Book your flight instantly using TourNest!</p>
+            <p>Get the fresh information by subscribing our channel!</p >
           </div><!--/.service-content-->
         </div><!--/.single-service-box-->
       </div><!--/.col-->

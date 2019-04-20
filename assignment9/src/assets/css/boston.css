@@ -1,0 +1,276 @@
+/*-------------------------------------*/
+/*boston starting*/
+.boston{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position: relative;
+	/* background-image: url(../../assets/images/destination/Boston-title1.jpg); */
+	background-size: cover;
+	background-position: center;
+	min-height: 100px;
+  opacity: 0.9;
+
+}
+
+/*destination-content*/
+.boston-content{
+	margin: -120px 0 0 0;
+}
+
+.boston h2 {
+	color:#fff;	
+	font-size:84px;
+	text-transform: inherit;
+	max-width: 1000px;
+	font-weight: 500;
+    line-height: 1;
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid #73AD21; */
+    text-align: center;
+}
+.boston h2 span{
+	color:#2bdab5;
+    margin-top: -11px;
+    /* border: 3px solid #73AD21; */
+}
+.boston h3{
+    text-align: center;
+}
+.boston-btn {
+    /* border: 3px solid #73AD21;   */
+    margin: 30px,10px ;
+    position:relative;
+	left:100px;
+    letter-spacing: 1.2px;
+     -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.boston-view {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00d8ff;
+    border: 1px solid #00d8ff;
+    width: 200px;
+    height: 60px;
+    white-space: nowrap;
+    color: #fff;
+    font-size:16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(14,15,18,.2);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.boston-btn:hover .about-view{
+    color: #fff;
+    background: #00d8d5;
+    box-shadow: 0 5px 20px rgba(14,15,18,.7);
+	border: 1px solid #00d8d5;
+}
+.travel-mrt-0{
+    margin-top: 0px;
+}
+
+.custom-input-boston{
+    margin: 15%;
+    /* border: 3px solid #73AD21; */
+}
+
+.resort{
+    padding:60px  40px;
+}
+.boston-content{
+    margin-top:-80px;
+}
+/*single-resort-item */
+.single-boston-item{
+    /* border: 3px solid #73AD21; */
+    opacity:0.8;
+    background: rgba(46, 40, 40, 0.651);
+    color:   rgba(252, 250, 250, 0.918);
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(rgba(0, 0, 0, 0.466));
+    -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.single-boston-item-txt{
+    padding: 0 15px;
+    text-align: center;
+}
+.single-boston-item video {
+    /* border: 3px solid #73AD21; */
+    width: 100%;
+}
+.single-boston-item h3{
+    position: relative;
+    font-size: 30px;
+    color: rgba(black);
+    font-weight:500;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+}
+.single-boston-item h1{
+    padding: 0 10%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.single-boston-item span{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.single-boston-item h3:after{
+    position: absolute;
+    content: " ";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boston-para{
+    padding:17px 0 0;
+    text-transform: capitalize;
+}
+.boston-para p{
+    font-size: 14px;
+    color: #aaa;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom:15px;
+}
+.boston-para p span{
+    display: inline-block;
+    width: 150px;
+}
+.boston-review p i{
+    color: #ffdf00;
+    font-size: 16px;
+}
+.boston-review span{
+    margin-left: 20px;
+    font-size: 14px;
+    color: #aaa;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.about-view.boston-btn{
+    width: 110px;
+    height: 35px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+
+}
+.about-view.boston-btn:hover{
+    box-shadow: 0 5px 20px rgba(14,15,18,.3);
+}
+.single-boston-item:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+
+/*single-package-item */
+
+
+
+/*boston-background*/
+.boston-offer {
+    padding: 120px 0;
+    position: relative;
+    background: url(../../assets/images/destination/Boston.jpg)no-repeat center fixed;
+    background-size: cover;
+    z-index: 0;
+    /* border: 3px solid #73AD21; */
+}
+.boston-offer:after,.subscribe:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.2);
+    z-index: -1;
+}
+.boston-offer-content{
+    margin-top: 10px;
+}
+
+.boston-offer-content h2{
+    /* border: 3px solid #73AD21; */
+    color:#fff;
+    font-size:80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* campaign-timer */
+.campaign-timer{
+    background: rgba(50,55,63,.65);
+    max-width: 555px;
+    margin: 43px auto;
+    padding:24px 0 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(34,31,31,.2);
+}
+.camp {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 0;
+}
+.time-after{
+    position:relative;
+}
+.time-after:after{
+    position:absolute;
+    content:':';
+    top:10px;
+    right:-8px;
+}
+.time {
+    display: inline-block;
+    line-height: 1;
+    padding: 10px 22px 0;
+    font-weight: 500;
+    font-size:48px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}/* campaign-timer */
+
+/*.discount-offer-btn*/
+.about-view.boston-offer-btn{
+    color: #fff;
+    max-width: 160px;
+    margin: 0 auto;
+}/*.discount-offer-btn*/
+.boston-video{
+    /* border: 3px solid #73AD21; */
+    margin-bottom: 30px;
+    margin-top: -10px;
+    
+}
+/*========================Thank you=================*/

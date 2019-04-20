@@ -28,11 +28,12 @@ export class HeaderComponent implements OnInit {
   }
 
   logout(wanttologout) {
+    console.log("in");
     this.modalService.open(wanttologout, {
     }).result.then((result) => {
       if (result === 'yes') {
         localStorage.removeItem('user');
-        this.router.navigateByUrl('/home');
+        this.router.navigateByUrl('/');
       } else {
         return;
       }

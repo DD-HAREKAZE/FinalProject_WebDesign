@@ -1,0 +1,331 @@
+<app-header></app-header>
+
+
+<head>
+  <!-- META DATA -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <!--font-family-->
+  <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+
+  <!-- TITLE OF SITE -->
+  <title>Traveler</title>
+
+  <!-- favicon img -->
+  <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+
+  <!--font-awesome.min.css-->
+  <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css">
+
+
+  <!-- range css-->
+  <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/jquery-ui-1.11.0.css">
+
+  <!--bootstrap.min.css-->
+  <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css">
+
+
+</head>
+
+
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+<!-- main-menu End -->
+
+
+<!--destination start -->
+<section id="home" class="destination">
+
+  <div class="container">
+    <div class="destination-content">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>
+            <br/><br/>
+            <br /><br/>
+            Find Your Destination
+          </h2>
+          <br />
+          <!--serch input start-->
+
+          <form>
+            <div class="row">
+              <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                <div class="custom-input-destination">
+                  <input type="email" class="form-control" placeholder="Enter What You Want To Find Here">
+                  <!-- <button class="appsLand-btn subscribe-btn">Search</button> -->
+                  <div class="clearfix"></div>
+                  <i class="fa fa-search"></i>
+                </div>
+
+              </div>
+            </div>
+          </form>
+          <!--serch input end-->
+
+        </div><!--/.col-->
+      </div><!--/.row-->
+    </div><!--/.about-us-content-->
+  </div><!--/.container-->
+
+</section><!--/.about-us-->
+<!--about-us end -->
+
+<!--travel-box start-->
+<section  class="travel-box">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="single-travel-boxes">
+        </div><!--/.single-travel-box-->
+      </div><!--/.col-->
+    </div><!--/.row-->
+  </div><!--/.container-->
+
+
+
+
+  <!--all findings start-->
+  <section id="pack" class="resort">
+    <div class="container">
+      <div class="gallary-header text-center">
+        <h2>
+          Top Findings
+        </h2>
+        <!-- <p>
+          Come to find your travel partners here.
+        </p>
+        <button  class="about-view resort-btn">
+          Browse All >>
+        </button> -->
+      </div><!--/.gallery-header-->
+      <div class="resort-content">
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/1.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Boston, MA, USA</h3>
+                <div class="destination-btn">
+                  <button  [routerLink]="['/boston']" class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+                <!-- <div class="resort-para">
+                     <p>
+                        <span>
+                          <i class="fa fa-angle-right"></i> 3 Days 2 nights
+                        </span>
+                    <i class="fa fa-angle-right"></i>  5 star accomodation
+                  </p>
+                  <p>
+                        <span>
+                          <i class="fa fa-angle-right"></i>  transportation
+                        </span>
+                    <i class="fa fa-angle-right"></i> food facilities
+                  </p> -->
+                <!-- </div>/.packages-para -->
+                <!-- <div class="resort-review">
+                  <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <span>254 reviews</span>
+                  </p>
+                </div>/.packages-review -->
+                <!-- <div class="about-btn">
+                  <button  class="about-view resort-btn">
+                    book now
+                  </button> -->
+                <!-- </div>/.about-btn -->
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+
+          </div><!--/.col-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/2.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Worcester, MA, USA</h3>
+              </div>
+              <div class="destination-btn">
+                <button [routerLink]="['/worcester']" class="about-view resort-btn">
+                  view
+                </button>
+              </div><!--/.about-btn-->
+
+              <!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+
+          </div><!--/.col-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/3.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Columbus, OH, USA</h3>
+                <div class="destination-btn">
+                  <button [routerLink]="['/columbus']" class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+
+          </div><!--/.col-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/4.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>New York, NY, USA </h3>
+                <div class="destination-btn">
+                  <button  class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+
+          </div><!--/.col-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/5.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Los Angeles, CA, USA</h3>
+                <div class="destination-btn">
+                  <button  class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+
+          </div><!--/.col-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/6.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Seattle, WA, USA</h3>
+                <div class="destination-btn">
+                  <button  class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+          </div><!--/.col-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/7.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Harrisburg, PA, USA</h3>
+                <div class="destination-btn">
+                  <button  class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+          </div><!--/.col-->
+
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/8.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <div><h3>Springfield, IL, USA</h3></div>
+                <div class="destination-btn">
+                  <button  class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+          </div><!--/.col-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/9.png" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Austin, TX, USA</h3>
+                <div class="destination-btn">
+                  <button  class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+          </div><!--/.col-->
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/10.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Olympia, WA, USA</h3>
+                <div class="destination-btn">
+                  <button  class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+          </div><!--/.col-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/11.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Pittsburgh, PA, USA</h3>
+                <div class="destination-btn">
+                  <button  class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+          </div><!--/.col-->
+
+          <div class="col-md-3 col-sm-6">
+            <div class="single-resort-item">
+              <img src="assets/images/packages/12.jpg" alt="package-place">
+              <div class="single-resort-item-txt">
+                <h3>Chicago, IL, USA</h3>
+                <div class="destination-btn">
+                  <button  class="about-view resort-btn">
+                    view
+                  </button>
+                </div><!--/.about-btn-->
+
+              </div><!--/.single-package-item-txt-->
+            </div><!--/.single-package-item-->
+          </div><!--/.col-->
+        </div><!--/.row-->
+      </div><!--/.packages-content-->
+    </div><!--/.container-->
+
+  </section><!--/.packages-->
+  <!--packages end-->
+

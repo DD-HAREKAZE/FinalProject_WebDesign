@@ -1,104 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50df7576-424b-48e5-9982-138787b8ab66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserCreation/config/database.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/UserCreation/config/database.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/e2e/protractor.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/e2e/src/app.po.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/e2e/tsconfig.e2e.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/e2e/tsconfig.e2e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/footer/footer.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/footer/footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/footer/footer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/footer/footer.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/footer/footer.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/google-places.directive.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/google-places.directive.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/google-places.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/google-places.directive.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/header/header.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/header/header.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/home/home.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/home/home.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/home/home.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/login/login.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/login/login.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/login/login.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/model/user.model.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/model/user.model.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/model/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/model/user.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/profile/profile.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/profile/profile.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/profile/profile.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/profile/profile.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/service/login.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/service/login.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/service/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/service/login.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/service/retrieve-data.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/service/retrieve-data.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/service/retrieve-data.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/service/retrieve-data.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/service/send-email.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/service/send-email.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/service/send-email.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/service/send-email.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/service/user.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/service/user.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/service/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/service/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/signup/signup.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/signup/signup.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/signup/signup.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/signup/signup.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/signup/signup.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/signup/signup.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/app/signup/signup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/app/signup/signup.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/blog/b1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/blog/b1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/blog/b2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/blog/b2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/blog/b3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/blog/b3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/client/testimonial1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/client/testimonial1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/client/testimonial2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/client/testimonial2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/gallary/g6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/home/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/home/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/home/offer-timer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/home/offer-timer.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/home/subscribe-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/home/subscribe-banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/home/travel15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/home/travel15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/home/travel17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/home/travel17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/home/travel18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/home/travel18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/offer/offer-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/offer/offer-banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/offer/offer-shape.png" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/offer/offer-shape.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/packages/p6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/service/s1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/service/s1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/service/s2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/service/s2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/assets/images/service/s3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/assets/images/service/s3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/browserslist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/src/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/src/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment9/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/assignment9/tslint.json" afterDir="false" />
-    </list>
+    <list default="true" id="50df7576-424b-48e5-9982-138787b8ab66" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -113,75 +16,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/app/app-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/app/columbus/columbus.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="605">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/app/columbus/columbus.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="1763" column="1" lean-forward="true" selection-start-line="1763" selection-start-column="1" selection-end-line="1763" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignment9/src/app/header/header.component.ts">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/assets/css/columbus.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="307">
+              <caret line="198" column="87" selection-start-line="198" selection-start-column="87" selection-end-line="198" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment9/src/app/header/header.component.html">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/app/worcester/worcester.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="711">
+              <caret line="69" column="46" lean-forward="true" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment9/src/app/signup/signup.component.css">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/app/worcester/worcester.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment9/src/app/home/home.component.html">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/app/destination/destination.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-698">
-              <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment9/src/app/profile/profile.component.ts">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/assets/css/worcester.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="364">
+              <caret line="199" column="27" lean-forward="true" selection-start-line="199" selection-start-column="27" selection-end-line="199" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment9/src/app/header/header.component.css">
+        <entry file="file://$PROJECT_DIR$/assignment9/src/assets/css/boston.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment9/src/app/profile/profile.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="109">
+              <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -228,20 +151,32 @@
         <option value="$PROJECT_DIR$/UserCreation/config/database.config.js" />
         <option value="$PROJECT_DIR$/UserCreation/route/app.route.js" />
         <option value="$PROJECT_DIR$/assignment9/node_modules/bootstrap/dist/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/assignment9/src/assets/css/style.css" />
         <option value="$PROJECT_DIR$/assignment9/src/app/home/home.component.css" />
         <option value="$PROJECT_DIR$/assignment9/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/assignment9/src/app/profile/profile.component.html" />
         <option value="$PROJECT_DIR$/assignment9/src/app/profile/profile.component.ts" />
         <option value="$PROJECT_DIR$/assignment9/src/app/header/header.component.css" />
+        <option value="$PROJECT_DIR$/assignment9/src/app/destination/destination.component.html" />
+        <option value="$PROJECT_DIR$/assignment9/src/app/boston/boston.component.html" />
+        <option value="$PROJECT_DIR$/assignment9/src/app/boston/boston.component.css" />
+        <option value="$PROJECT_DIR$/assignment9/src/app/columbus/columbus.component.html" />
+        <option value="$PROJECT_DIR$/assignment9/src/app/columbus/columbus.component.css" />
+        <option value="$PROJECT_DIR$/assignment9/src/app/worcester/worcester.component.css" />
+        <option value="$PROJECT_DIR$/assignment9/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/assignment9/src/app/worcester/worcester.component.html" />
+        <option value="$PROJECT_DIR$/assignment9/src/app/destination/destination.component.css" />
+        <option value="$PROJECT_DIR$/assignment9/src/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/assignment9/src/assets/css/boston.css" />
+        <option value="$PROJECT_DIR$/assignment9/src/assets/css/worcester.css" />
+        <option value="$PROJECT_DIR$/assignment9/src/assets/css/columbus.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="87" />
+    <option name="x" value="158" />
     <option name="y" value="22" />
     <option name="width" value="1315" />
-    <option name="height" value="777" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -281,7 +216,7 @@
               <item name="assignment9" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
+              <item name="destination" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Final_WebDesign" type="b2602c69:ProjectViewProjectNode" />
@@ -289,31 +224,7 @@
               <item name="assignment9" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Final_WebDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final_WebDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Final_WebDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final_WebDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Final_WebDesign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Final_WebDesign" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="signup" type="462c0819:PsiDirectoryNode" />
+              <item name="worcester" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Final_WebDesign" type="b2602c69:ProjectViewProjectNode" />
@@ -400,15 +311,15 @@
       <option name="presentableId" value="Default" />
       <updated>1555535389474</updated>
       <workItem from="1555535391361" duration="25940000" />
-      <workItem from="1555629327230" duration="20853000" />
+      <workItem from="1555629327230" duration="22698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46793000" />
+    <option name="totallyTimeSpent" value="48638000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="253" width="1315" height="777" extended-state="0" />
+    <frame x="158" y="22" width="1315" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49842766" visible="true" weight="0.2496136" />
@@ -455,94 +366,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/service/login.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/login/login.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/tslint.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/service/user.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/footer/footer.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/footer/footer.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/signup/signup.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/service/login.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/service/send-email.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/service/send-email.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment9/src/app/login/login.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -741,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="1167" column="23" lean-forward="true" selection-start-line="1167" selection-start-column="23" selection-end-line="1167" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment9/src/app/model/user.model.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -769,16 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment9/src/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -796,6 +602,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/header/header.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/header/header.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/header/header.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/signup/signup.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignment9/src/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-698">
@@ -804,13 +641,6 @@
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/profile/profile.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -824,34 +654,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/header/header.component.html">
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/profile/profile.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/signup/signup.component.css">
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/destination/destination.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="2837">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/header/header.component.css">
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/destination/destination.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment9/src/app/header/header.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/boston/boston.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/boston/boston.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/columbus/columbus.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/columbus/columbus.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/worcester/worcester.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="69" column="46" lean-forward="true" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/destination/destination.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/app/worcester/worcester.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/assets/css/boston.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="1763" column="1" lean-forward="true" selection-start-line="1763" selection-start-column="1" selection-end-line="1763" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/assets/css/worcester.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="199" column="27" lean-forward="true" selection-start-line="199" selection-start-column="27" selection-end-line="199" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment9/src/assets/css/columbus.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="198" column="87" selection-start-line="198" selection-start-column="87" selection-end-line="198" selection-end-column="87" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
 <nav>
   <ul>
     <li ><a href="#home">Home</a></li>
-    <li><a href="#gallery">Browse Destinations</a></li>
+    <li><a href="#" [routerLink]="['/destination']">Browse Destinations</a></li>
 
     <div *ngIf="this.userObject; else login" id = "helloName">
       Welcome,  {{this.currentUser}}

@@ -13,6 +13,10 @@ import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { GooglePlacesDirective } from './google-places.directive';
+import { DestinationComponent } from './destination/destination.component';
+import { BostonComponent } from './boston/boston.component';
+import { ColumbusComponent } from './columbus/columbus.component';
+import { WorcesterComponent } from './worcester/worcester.component';
 
 
 @NgModule({
@@ -24,7 +28,11 @@ import { GooglePlacesDirective } from './google-places.directive';
     HeaderComponent,
     LoginComponent,
     ProfileComponent,
-    GooglePlacesDirective
+    GooglePlacesDirective,
+    DestinationComponent,
+    BostonComponent,
+    ColumbusComponent,
+    WorcesterComponent
   ],
   imports: [
     BrowserModule,

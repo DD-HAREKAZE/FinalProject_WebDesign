@@ -37,6 +37,17 @@ export class HomeComponent implements OnInit {
     });
   }
 
+  onSubmit(SearchItem) {
+    if (SearchItem == null || SearchItem == '') {
+
+
+    } else {
+
+      localStorage.setItem('SearchItem', SearchItem);
+      this.router.navigate(['/destination']);
+    }
+  }
+
  get f() { return this.emailForm.controls; }
 
   submitEmail() {

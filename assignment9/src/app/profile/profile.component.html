@@ -1,6 +1,9 @@
+
+
+
 <app-header></app-header>
 
-<div class = "h1Words" >
+<!-- <div class = "h1Words" >
 
   <h1>Hello, welcome to Wayfarer!</h1>
 
@@ -32,4 +35,77 @@
     <tfoot></tfoot>
   </table>
 
+<<<<<<< HEAD
+=======
+  <label id = "firstName">First Name: </label>
+  {{this.currentUserFirstName}}
+  <br>
+  <label id = "lastName">Last Name: </label>
+  {{this.currentUserLastName}}
+  <br>
+  <label id = "email">Email: </label>
+  {{this.currentUserEmail}}
+  <br>
+  <label id = "city">City: </label>
+  {{this.currentUserCity}}
+  <br>
+  <label id = "zipcode">Zipcode: </label>
+  {{this.currentUserZipcode}}
+  <br>
+  <br><br>
+</div> -->
+
+
+<!-- <app-header2></app-header2> -->
+
+<!-- <div class = "h1Words">
+
+<h1>Hello, welcome to Wayfarer!</h1>
+
+<br><br>
+</div> -->
+<div class="h1Words">
+  <h1>My Profile</h1>
+>>>>>>> 003f4d85a16f75e97d00b295c121e0b341980e48
 </div>
+<form (ngSubmit)="creteUser()" class = "signupForm">
+  <div class="form-group">
+    <label for="firstName">First Name</label>
+
+    <input class="form-control" type="text" name="firstName" id="firstName" disabled="disabled" style="background:#CCCCCC" [(ngModel)]=" firstName" placeholder={{this.currentUserFirstName}}/>
+
+  </div>
+
+  <div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input class="form-control" class="form-control" type="text" name="lastName" id="lastName" disabled="disabled" style="background:#CCCCCC" [(ngModel)]="lastName" placeholder={{this.currentUserLastName}}/>
+  </div>
+
+  <div class="form-group">
+    <label for="userName">Email address</label>
+    <input class="form-control" type="text" name="userName" id="userName" disabled="disabled" style="background:#CCCCCC" [(ngModel)]="userName" placeholder={{this.currentUserEmail}}/>
+  </div>
+
+  <div class="form-group">
+    <label for="city">City</label>
+    <input class="form-control" type="city" name="city" id="city" disabled="disabled" style="background:#CCCCCC" [(ngModel)]="city" placeholder={{this.currentUserCity}}/>
+  </div>
+
+  <div class="form-group">
+    <label for="zip">Zipcode</label>
+    <input class="form-control" type="zip" name="zip" id="zip" disabled="disabled" style="background:#CCCCCC" [(ngModel)]="zip" placeholder={{this.currentUserZipcode}}/>
+  </div>
+
+
+  <br><br>
+  <!-- <script>
+    window.onload = function(){
+      document.getElementById("firstName").innerHTML = localStorage.getItem("firstName");
+      document.getElementById("lastName").innerHTML = localStorage.getItem("lastName");
+      document.getElementById("userName").innerHTML = localStorage.getItem("userName");
+      document.getElementById("zip").innerHTML = localStorage.getItem("zip");
+      document.getElementById("city").innerHTML = localStorage.getItem("city");
+    }
+    </script> -->
+
+</form>

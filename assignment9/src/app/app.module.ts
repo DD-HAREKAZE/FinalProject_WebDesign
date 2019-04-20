@@ -17,6 +17,7 @@ import { DestinationComponent } from './destination/destination.component';
 import { BostonComponent } from './boston/boston.component';
 import { ColumbusComponent } from './columbus/columbus.component';
 import { WorcesterComponent } from './worcester/worcester.component';
+import { FilterPipe } from './filter.pipe';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { WorcesterComponent } from './worcester/worcester.component';
     DestinationComponent,
     BostonComponent,
     ColumbusComponent,
-    WorcesterComponent
+    WorcesterComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

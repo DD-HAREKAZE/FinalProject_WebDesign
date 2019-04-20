@@ -8,3 +8,13 @@
   color:cornflowerblue;
   font-size: 20px;
 }
+
+.signupForm{
+  margin-top: 3%;
+}
+
+.form-group{
+  color:palevioletred;
+  width:44%;
+  margin-left: 28%;
+}

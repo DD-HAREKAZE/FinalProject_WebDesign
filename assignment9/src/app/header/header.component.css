@@ -80,7 +80,23 @@ nav li:hover ul{
   z-index: 1;
 }
 
-
+/*------------------------logo----------------------*/
+.header-logo {
+  padding-top: 0px;
+}
+.header-logo a, .header-logo a:hover,.header-logo a:focus {
+  color: #565a5c;
+  font-size:24px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  font-weight: 600;
+  /* margin: 14px 0px 0; */
+  /* padding: 0px; */
+}
+.header-logo a>span {
+  color: #00d8ff;
+  text-transform: capitalize;
+}
 
 
 

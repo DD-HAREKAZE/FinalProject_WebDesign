@@ -54,7 +54,7 @@ export class SignupComponent implements OnInit {
       .subscribe(data => {
           console.log('user register', data);
        //   alert('Successfully registered!')
-          this.router.navigate(['/profile']);
+          this.router.navigate(['/home']);
       },
         error => {
         this.loading = false;
